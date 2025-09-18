@@ -1,0 +1,77 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    background-color: rgb(200, 219, 112);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 620px;
+}
+
+.lista-wrapper{
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    min-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.list-item {
+  display: flex; 
+  align-items: center;     
+  justify-content: space-between; 
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-item:hover{
+    background-color: #dadada;
+}
+
+.main-title {
+    color: #385555;
+}
+
+.list-item-image{
+    margin-right: 0;
+    margin-left: 0;
+    display: block;
+    text-align: left;
+}
+
+div .list-item-image img{
+    border-radius: 50%;
+    width: 80px;
+    padding-right: 15px;
+}
+
+.list-item-name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.list-item-email{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+div .list-item-action{
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+}
+
+div .list-item-action img{
+    cursor: pointer;
+}
